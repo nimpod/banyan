@@ -1,0 +1,38 @@
+x-axis is measuring MHz
+y-axis is measuring occurances
+
+Plot Bands:
+    colour = black
+    Start freq (MHz) - min x coordinate
+    Stop freq (MHz) - max x coordinate
+
+Rx Tunes:
+    colour = blue
+    width = 80MHz
+
+Rx Pre-Selectors:
+    colour = green
+
+Antenna Bands:
+    colour = light blue
+
+PA Bands:
+    colour = pink
+
+Tx Tunes:
+    colour = red
+    DAC freq (MHz) -
+
+
+ex1 = (
+    startFreq = 1000,
+    stopFreq = 1160,
+    maxTxPower = 111,
+    rxAntennaPort = 1,
+    rxTune = 1080,
+    dacIdx = 0,
+    dacFreq = 1080,
+    dacInputChan = 0,
+    dacInputOffset = 0,
+    paIndex = 0
+)
