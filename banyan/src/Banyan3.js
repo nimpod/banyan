@@ -80,6 +80,7 @@ class Banyan1 extends Component {
 
     constructor(props) {
         super(props);
+        let test = "what the fuck";
 
         this.state = {
             hasFirstHistogramBeenDrawn: false
